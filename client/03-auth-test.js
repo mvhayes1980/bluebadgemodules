@@ -200,6 +200,6 @@ function removeItem(e) {
     else target.parentNode.removeChild(target);
 
     let x = target.getAttribute("id")
-    // deleteItemById(x);
-    console.log("The id number for this item is " + x);
+    deleteItemById(x);
+    // console.log("The id number for this item is " + x);
 }
